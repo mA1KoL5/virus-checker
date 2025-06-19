@@ -18,5 +18,5 @@ cp .env.example .env   # insert your VirusTotal API key
 
 Here's a scan showing one detection flagged by VirusTotal:
 
-![Scan output screenshot](screenshots/example-run.png)
+![Scan output screenshot](image_2025-06-18-195900270.png)
 
