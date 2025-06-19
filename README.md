@@ -21,4 +21,4 @@ Here's a scan showing one detection flagged by VirusTotal:
 ```
 ## Output
 
-![Scan output screenshot](image_2025-06-18-195900270.png)
+![Scan output screenshot](image_2025-06-18_195900270.png)
