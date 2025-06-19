@@ -13,3 +13,5 @@ This script scans a directory, calculates SHA-256 hashes for all files, and chec
 ```bash
 pip install -r requirements.txt
 cp .env.example .env   # insert your VirusTotal API key
+
+![Scan output screenshot](image_2025-06-18_195900270.png)
