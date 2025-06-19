@@ -10,6 +10,7 @@ This script scans a directory, calculates SHA-256 hashes for all files, and chec
 - Works on Windows, Linux, and macOS
 
 ## Setup
+
 ```bash
 pip install -r requirements.txt
 cp .env.example .env   # insert your VirusTotal API key
@@ -17,6 +18,7 @@ cp .env.example .env   # insert your VirusTotal API key
 ## Example Output
 
 Here's a scan showing one detection flagged by VirusTotal:
+```
+## Output
 
 ![Scan output screenshot](image_2025-06-18-195900270.png)
-
