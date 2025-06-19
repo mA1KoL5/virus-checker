@@ -2,6 +2,19 @@
 
 This script scans a directory, calculates SHA-256 hashes for all files, and checks for unexpected changes. New or modified files are looked up using the VirusTotal API to identify potential threats.
 
+## Skills Demonstrated
+
+- Tracks file additions, deletions, and modifications using secure SHA-256 hashing
+- Interacts with the VirusTotal API to enrich findings with real-world threat intelligence
+- Implements Python scripting using modules like `pathlib`, `hashlib`, `requests`, and `argparse`
+- Handles environment variables securely with `.env` files to avoid hardcoding sensitive keys
+- Resolves Windows `.lnk` shortcut targets (platform-aware behavior)
+- Skips unreadable system files with graceful error handling
+- Supports cross-platform compatibility (Windows, Linux, macOS)
+
+### Implementations
+
+This tool reflects key practices used in blue team operations and incident response. File integrity monitoring is a required control in many security frameworks (e.g., NIST, PCI-DSS, HIPAA). By automatically tracking file changes and validating them through VirusTotal, this script can help detect tampering, malware implants, and suspicious behavior in monitored directories.
 ## How It Works
 
 This tool monitors a directory for unexpected file changes by:
